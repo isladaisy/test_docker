@@ -1,4 +1,4 @@
-### test_docker
+### test_docker🐋
 - images
   - Images are read-only templates containing instructions for creating a container. An image is composed of multiple stacked layers, like layers in a photo editor, each changing something in the environment. Images contain the code or binary, runtimes, dependencies, and other filesystem objects to run an application. The image relies on the host operating system (OS) kernel.
   - Docker images are immutable, so I cannot change them once they are created. If I need to change something, create another container with your changes, then save those as another image. Or, just run your new container using an existing image as a base and change that one.
@@ -12,6 +12,6 @@
   - I can use containers for packaging an application with all the components it needs, then ship it all out as one unit.  
 <br />
 
-### references
+### references🐳
 [docker docs](https://docs.docker.com/)  
 [image vs container](https://circleci.com/blog/docker-image-vs-container/)
